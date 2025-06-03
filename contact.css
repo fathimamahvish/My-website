@@ -1,0 +1,46 @@
+body{
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.chat-container
+{
+  margin:20px;
+  padding:20px;
+  border: 2px solid brown;
+  outline: 2px solid brown;
+  outline-offset: 3px;
+  height: 40vh;
+  width: 50vw;
+  display: inline-block;
+  border-radius: 15px;
+}
+div button {
+  background-color: brown;
+  margin: 100px;
+  padding: 10px;
+  color: white;
+  height: 10vh;
+  width: 20vw;
+}
+.intro{
+  margin: 45px;
+  padding: 45px;
+  border: 2px solid brown;
+  height: 40vh;
+  width: 50vw;
+  display: inline-block;
+  justify-content: center;
+  outline: 2px solid brown;
+  outline-offset: 3px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
+  overflow: scroll;
+  text-align: left;
+  border-radius: 15px;
+}
